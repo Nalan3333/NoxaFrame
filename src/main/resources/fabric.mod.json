@@ -13,7 +13,9 @@
     "client": [
       "dev.nalan_tttt.noxaframe.client.NoxaframeClient"
     ],
-    "main": []
+    "main": [
+      "dev.nalan_tttt.noxaframe.NoxaFrame"
+    ]
   },
   "mixins": [
     "noxaframe.mixins.json",

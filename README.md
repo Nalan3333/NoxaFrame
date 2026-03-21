@@ -2,16 +2,15 @@
 ![Nalan3333](docs/img.png)
 NoxaFrame is a lightweight UI framework for Minecraft modding.
 
-The library provides a simple layout system built around containers and UI elements, allowing developers to construct interfaces using rows, columns, icons, buttons, and other components. It is designed to be minimal, flexible, and easy to integrate into mods.
+The library provides a simple layout system built around containers and UI elements, allowing developers to construct interfaces using rows, columns, icons, buttons, and other components.
 
 Key ideas behind NoxaFrame:
 
 * Simple layout containers (Row / Column)
 * Relative and absolute positioning
 * Rendering abstraction through `IRenderContext`
-* Lightweight architecture suitable for mod environments
 
-The framework focuses on giving mod developers a structured way to build interfaces without depending on large UI systems.
+The framework focuses on giving mod developers a structured way to build interfaces
 
 ## License
 This project is licensed under MPL-2.0.
@@ -59,7 +58,7 @@ repositories {
 in dependencies:
 ```groovy
 dependencies {
-    implementation 'com.github.Nalan3333:NoxaFrame:${noxaframe_version}'
+    implementation "com.github.Nalan3333:NoxaFrame:${noxaframe_version}"
 }
 ```
 And in gradle.properties:
@@ -68,5 +67,4 @@ noxaframe_version=???
 ```
 Replace ??? with the NoxaFrame version.
 ## Status
-
 The project is currently under active development.

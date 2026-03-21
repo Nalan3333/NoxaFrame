@@ -14,7 +14,7 @@ import net.minecraft.network.chat.Component;
  *
  */
 public class GUI extends Screen {
-    UIContainer root;
+    protected UIContainer root;
 
     public GUI() {
         super(Component.empty());

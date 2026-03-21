@@ -1,9 +1,8 @@
 {
 	"required": true,
-	"package": "dev.nalan_tttt.noxaframe.mixin.client",
+	"package": "dev.nalan_tttt.noxaframe.client.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -9,7 +9,6 @@ import dev.nalan_tttt.noxaframe.client.framework.utils.IconManager;
  */
 public class TestGUI extends GUI {
     UIIcon test;
-    UIIcon two;
     UIButton button;
     UIButton twoButton;
     UIRowContainer container;
@@ -21,7 +20,7 @@ public class TestGUI extends GUI {
         super.init();
         container = new UIRowContainer(1);
         container.wh(16, 60);
-        container.xy(0.5f, 0.45f);
+        container.xy(0.45f, 0.6f);
         test = new UIIcon(IconManager.getIcon(IconManager.test));
         button = new UIButton("Click me!", 0xFF0000FF, (button) -> {
             if (!clicked) {
@@ -45,7 +44,7 @@ public class TestGUI extends GUI {
         label = new UILabel("Hello, world!");
         label.wh(100, 100);
         label.xy(0.6f, 0.5f);
-        columnContainer.xy(0.4f, 0.5f);
+        columnContainer.xy(0.45f, 0.5f);
         columnContainer.wh(32, 32);
         columnContainer.addChild(button);
         columnContainer.addChild(twoButton);
