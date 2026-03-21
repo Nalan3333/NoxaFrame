@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "noxaframe",
+  "version": "${version}",
+  "name": "NoxaFrame",
+  "description": "Minecraft library adding UI system",
+  "authors": ["Nalan3333"],
+  "contact": {},
+  "license": "MPL-2.0",
+  "icon": "assets/noxaframe/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.nalan_tttt.noxaframe.client.NoxaframeClient"
+    ],
+    "main": []
+  },
+  "mixins": [
+    "noxaframe.mixins.json",
+    {
+      "config": "noxaframe.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
