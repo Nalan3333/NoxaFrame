@@ -58,7 +58,7 @@ repositories {
 in dependencies:
 ```groovy
 dependencies {
-    implementation "com.github.Nalan3333:NoxaFrame:${noxaframe_version}"
+    modImplementation "com.github.Nalan3333:NoxaFrame:${noxaframe_version}"
 }
 ```
 And in gradle.properties:
