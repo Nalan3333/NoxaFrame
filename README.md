@@ -34,6 +34,8 @@ D – special build for specific projects.
 
 The @since tag always refers to the first public version (A/B/R).
 
+For git tags, there may be an addition in the form of a Minecraft version.
+
 ## Example
 ```java
 UIRowContainer row = new UIRowContainer(4);
