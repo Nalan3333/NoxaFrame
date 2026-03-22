@@ -31,7 +31,6 @@ public class GUI extends Screen {
 
     @Override
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float delta) {
-        this.renderBackground(graphics);
         IRenderContext context = new RenderContext_v1201(graphics);
         int height = Minecraft.getInstance().getWindow().getGuiScaledHeight();
         int width = Minecraft.getInstance().getWindow().getGuiScaledWidth();

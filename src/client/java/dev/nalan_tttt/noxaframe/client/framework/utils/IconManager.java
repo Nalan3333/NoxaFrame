@@ -14,7 +14,7 @@ public class IconManager {
 
     public static void init() {
         registerIcon(new Icon(
-                new ResourceLocation("noxaframe", "icon.png"),
+                ResourceLocation.fromNamespaceAndPath("noxaframe", "icon.png"),
                 32,
                 32,
                 0,
@@ -23,7 +23,7 @@ public class IconManager {
                 32
         ), noxaFrame);
         registerIcon(new Icon(
-                new ResourceLocation("noxaframe", "icons.png"),
+                ResourceLocation.fromNamespaceAndPath("noxaframe", "icons.png"),
                 16,
                 16,
                 0,
@@ -32,7 +32,7 @@ public class IconManager {
                 128
         ), "TEST./icon");
         registerIcon((new Icon(
-                new ResourceLocation("noxaframe", "icons.png"),
+                ResourceLocation.fromNamespaceAndPath("noxaframe", "icons.png"),
                 16,
                 16,
                 16,
@@ -43,6 +43,9 @@ public class IconManager {
     }
 
     public static Icon getIcon(String id) {
+        if (!icons.containsKey(id)) {
+            return icons.get(test);
+        }
         return icons.get(id);
     }
     public static void registerIcon(Icon icon, String id) {
