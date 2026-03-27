@@ -23,7 +23,6 @@ X.Y-A
 X – generation of the framework;
 Y – version inside the generation;
 A – stage of the release.
-
 Stages:
 N – private development version;
 A – alpha;
@@ -34,6 +33,7 @@ D – special build for specific projects.
 
 The @since tag always refers to the first public version (A/B/R).
 
+For git tags, there may be an addition in the form of a Minecraft version.
 ## Example
 ```java
 UIRowContainer row = new UIRowContainer(4);
