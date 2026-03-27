@@ -11,8 +11,8 @@ public class NoxaframeClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         IconManager.init();
-        ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
-            client.setScreen(new TestGUI());
-        });
+        //ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
+        //    client.setScreen(new TestGUI());
+        //});
     }
 }
