@@ -43,7 +43,7 @@ icon.wh(16, 16);
 row.addChild(icon);
 root.addChild(row);
 ```
-You have see 'dev.nalan_tttt.noxaframe.client.framework.TestGUI' for a full example GUI.
+You have see `dev.nalan_tttt.noxaframe.client.framework.TestGUI` for a full example GUI.
 This is what the TestGUI looks like:
 ![Example-UI](docs/gui-showcase.png)
 
