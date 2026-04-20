@@ -1,4 +1,4 @@
-# NoxaFrame
+# NoxaFrame Fabric (DEPRECATED, please use the neoforge version)
 ![Nalan3333](docs/img.png)
 NoxaFrame is a lightweight UI framework for Minecraft modding.
 
