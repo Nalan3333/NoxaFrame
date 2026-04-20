@@ -39,7 +39,7 @@ public class Noxaframe {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Noxaframe(IEventBus modEventBus, ModContainer modContainer) {
-        NeoForge.EVENT_BUS.register(this);
+        //NeoForge.EVENT_BUS.register(this);
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
