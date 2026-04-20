@@ -18,11 +18,12 @@ This project is licensed under MPL-2.0.
 ## Versioning
 NoxaFrame uses the following version format:
 
-X.Y-A
+X.Y-A-M
 
 X – generation of the framework;
 Y – version inside the generation;
 A – stage of the release.
+M - minecraft version.
 Stages:
 N – private development version;
 A – alpha;
@@ -32,8 +33,6 @@ C – limited distribution;
 D – special build for specific projects.
 
 The @since tag always refers to the first public version (A/B/R).
-
-For git tags, there may be an addition in the form of a Minecraft version.
 ## Example
 ```java
 UIRowContainer row = new UIRowContainer(4);
