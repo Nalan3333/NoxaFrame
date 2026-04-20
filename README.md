@@ -1,5 +1,6 @@
-# NoxaFrame
+# NoxaFrame Fabric (DEPRECATED, please use the neoforge version)
 ![Nalan3333](docs/img.png)
+
 NoxaFrame is a lightweight UI framework for Minecraft modding.
 
 The library provides a simple layout system built around containers and UI elements, allowing developers to construct interfaces using rows, columns, icons, buttons, and other components.
