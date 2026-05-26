@@ -66,4 +66,4 @@ noxaframe_version=???
 ```
 Replace ??? with the NoxaFrame version.
 ## Status
-The project is currently under active development.
+this project is frozen.
